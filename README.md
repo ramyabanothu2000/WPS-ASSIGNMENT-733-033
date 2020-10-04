@@ -2,5 +2,4 @@
 ASSIGNMENT-1
 
 
-Screenshots are-codes
-
+Screenshots are codes and outputs screen.
