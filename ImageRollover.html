@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style1.css"/>
+<h2 align="center">Rollover</h2>
+<script language="Javascript">
+ function move_in(img_name,img_src)
+{
+  document[img_name].src=img_src;
+}
+function move_out(img_name,img_src)
+{
+  document[img_name].src=img_src;
+}
+</script>
+</head>
+<body>
+  <a href="ImageRollover.html"
+  onmouseover="move_in('image1','https://images.unsplash.com/photo-1501686962565-1350ab98237f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80')"
+  onmouseover="move_in('image2','https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg')"
+  onmouseover="move_in('image3','https://i.pinimg.com/originals/89/27/dc/8927dcf60dfd605fce74cc3e2aea015f.jpg')"
+  onmouseover="move_out('image1','https://images.pexels.com/photos/658687/pexels-photo-658687.jpeg?cs=srgb&dl=pexels-cindy-gustafson-658687.jpg&fm=jpg')">
+  
+<img class="roll" style="max-width:20%";display:"inline"; src="https://images.pexels.com/photos/658687/pexels-photo-658687.jpeg?cs=srgb&dl=pexels-cindy-gustafson-658687.jpg&fm=jpg" alt="Move your mouse over here!" name="image1">
+<img class="roll" style="max-width:20%";display:"inline"; src="https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg" name="image2">
+<img class="roll" style="max-width:20%";display:"inline"; src="https://i.pinimg.com/originals/89/27/dc/8927dcf60dfd605fce74cc3e2aea015f.jpg"name="image3"></a>
+</body>
+  
+</html>
